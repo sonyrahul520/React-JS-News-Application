@@ -7,11 +7,12 @@ import { Typography } from '@mui/material';
 export default function Title(){
 
 	return (
-		<Box maxWidth={true} ml={10} mr={10} sx={{
+		<Box maxWidth={true} pt={5} mt={2} ml={10} mr={10} sx={{
 			height: 150,
-			backgroundColor: '#fbe4ff',
+			borderRadius: 10,
+			backgroundColor: '#c528b0',
 		}}>
-			<Typography variant="h1" align={'center'}>The Newspaper</Typography>
+			<Typography color={'white'} variant="h1" align={'center'}>The Newspaper</Typography>
 			
 			</Box>);
 }
